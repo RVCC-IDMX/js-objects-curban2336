@@ -1,17 +1,17 @@
-# JS Unit Testing with Vitest with Coverage
+# JS Unit Testing with Vitest with Coverage and UI
 
 ## JS Unit Testing Objects
 
 [![tested with vitest](https://img.shields.io/badge/tested_with-vitest-99424f.svg)](https://vitest.dev/)
 
-
+*NOTE: There is a browser-based UI for this project. See the [Vitest UI]*
 
 
 This project is written in [Node](https://nodejs.org/en/), and tested with [Vitest - Blazing Fast Unit Test Framework](https://vitestjs.io/).
 
 ---
 
-## The assignment
+## The Assignment
 
 When npm runs vitest, all the tests are failing as seen at the end of its output to the console.
 
@@ -66,6 +66,14 @@ Start with objects-01.test.js and finish with objects-04.test
 When you feel the coding skills are completed, the following command will test all files in the repo that end in test.js
 
 `npm test`
+
+---
+
+## Run tests with a UI
+
+If you want to run the tests with a UI, you can use the following command:
+
+`npm run test:ui`
 
 ---
 
