@@ -35,11 +35,11 @@ Start with the first file.
 
 The above npm command is equivalent to the following but is easier to type:
 
-`npx vitest tests/arrays-01.test.js --coverage --globals --run --reporter verbose`
+`npx vitest tests/objects-01.test.js --coverage --globals --run --reporter verbose`
 
 as inside the package.json you see it is listed in the scripts:
 
-`"test:1": "vitest tests/arrays-01.test.js --coverage --globals --run --reporter verbose"`
+`"test:1": "vitest tests/objects-01.test.js --coverage --globals --run --reporter verbose"`
 
 Repeat tha process for all of your test files.
 
@@ -47,7 +47,7 @@ Repeat tha process for all of your test files.
 
 ---
 
-So the above example tests the first file `tests/arrays-01.test.js` and outputs the results to the console.
+So the above example tests the first file `tests/objects-01.test.js` and outputs the results to the console.
 
 If a test fails, vitest will identify it as failing and print one or more error messages, depending on the test expectations.
 
@@ -57,7 +57,7 @@ If a test fails, vitest will identify it as failing and print one or more error 
 
 One-by-one and in order, edit each JavaScript file and follow the instructions for each coding skill. You should run the test after each completed skill and see the pass count increase. When one file passes completely, you are ready for the next file.
 
-Start with arrays-01.test.js and finish with arrays-04.test
+Start with objects-01.test.js and finish with objects-04.test
 
 ---
 

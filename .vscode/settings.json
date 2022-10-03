@@ -35,6 +35,7 @@
   "html.format.enable": true,
   "html.autoClosingTags": true,
   "css.format.enable": true,
+  "json.format.enable": true,
   "css.format.newlineBetweenRules": true,
   "css.format.newlineBetweenSelectors": true,
   "editor.codeActionsOnSave": {
