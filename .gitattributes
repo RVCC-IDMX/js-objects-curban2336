@@ -1,3 +1,5 @@
+# https://markoskon.com/line-endings-in-vscode-with-git-and-eslint/
+#
 # Let Git decide what to do, for every file. More on that later.
 * text=auto
 
