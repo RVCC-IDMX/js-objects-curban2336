@@ -20,7 +20,6 @@
  * bestFriend: a string
  * @returns {Object} - the object representing the pet
  * must use an object literal to create the object
- * book - https://bit.ly/2YnZJ1Y
  * Mozilla - https://mzl.la/3orRsF9
  * must use a trailing comma in the object
  * Mozilla - https://mzl.la/2Y89AbR
@@ -35,7 +34,6 @@ function makePetObject() {
  * @param {object} pet - the pet object as defined in makePetObject()
  * @returns {string} - the name of the pet
  * must use dot notation for the property name
- * book - https://bit.ly/3osgWCb
  * Mozilla - https://mzl.la/3iu0uh4
  */
 function getPetName(pet) {
@@ -47,7 +45,6 @@ function getPetName(pet) {
  * @param {object} pet - the pet object as defined in makePetObject()
  * @returns {number} - the age of the pet
  * must use bracket notation for the property name
- * book - https://bit.ly/2YnZJ1Y
  * Mozilla - https://mzl.la/39ZgjHP
  */
 function getPetAge(pet) {
@@ -96,7 +93,6 @@ function addPetBreed(pet, str) {
  * Deletes the bestFriend property from the pet object.
  * @param {object} pet - the object as defined in makePetObject()
  * @returns {object} - the same pet object but with BF deleted
- * book - https://bit.ly/3FfDYCq
  * Mozilla - https://mzl.la/3FmDpqv
  */
 function deletePetBestFriend(pet) {
@@ -107,7 +103,6 @@ function deletePetBestFriend(pet) {
  * Returns an array of all the properties of the pet object.
  * @param {object} pet - the object as defined in makePetObject()
  * @returns {array} - an array of the property names in the object
- * book - https://bit.ly/3uz2fOy
  * Mozilla - https://mzl.la/3ipqBW8
  */
 function getPetKeys(pet) {
@@ -118,7 +113,6 @@ function getPetKeys(pet) {
  * Returns the number of properties in the pet object.
  * @param {object} pet - the object as defined in makePetObject()
  * @returns {number} - the number of properties in the object
- * book - https://bit.ly/3uz2fOy
  */
 function getPetObjLength(pet) {
   // write your code here & return value

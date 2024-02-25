@@ -11,7 +11,7 @@
  * "Good modules are highly self-contained with distinct
  * functionality, allowing them to be shuffled, removed, or added as
  * necessary, without disrupting the system as a whole."
- * https://bit.ly/3A2xvXC
+ * Code Camp: https://bit.ly/3A2xvXC
  *
  */
 
@@ -104,7 +104,6 @@ function getColorValue(color) {
  * must use colorHexCodes as a lookup table
  * must use hasOwnProperty() to check if the color is in the table
  *
- * book - https://bit.ly/3D5ojn5
  * Mozilla - https://mzl.la/3F6tk0F
  * Or - https://mzl.la/3DnsESS
  */
