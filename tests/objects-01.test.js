@@ -36,6 +36,8 @@ test('setPetAge', () => {
   const aPet = makePetObject();
   setPetAge(aPet, 5);
   expect(aPet.age).toBe(5);
+  setPetAge(aPet, 0.5);
+  expect(aPet.age).toBe(0.5);
 });
 
 test('isPetABaby', () => {
